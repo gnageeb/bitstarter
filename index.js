@@ -1,5 +1,5 @@
 var express = require('express');
-var app = express.createServer(express.logger());
+var app = express();
 var fs = require('fs');
 
 app.set('port', (process.env.PORT || 5000))
