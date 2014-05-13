@@ -5,7 +5,7 @@ var fs = require('fs');
 
 //var INDEX = "index.html";
 //var INDEX = "index.html";
-var INDEX = "index-styled.html";
+var INDEX = "index-style.html";
 var express = require('express')
   , http = require('http');
 
