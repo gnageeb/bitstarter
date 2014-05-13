@@ -2,8 +2,10 @@
 //var express = require('express');
 var fs = require('fs');
 //var app = express.createServer();
-var INDEX = "index.html";
 
+//var INDEX = "index.html";
+//var INDEX = "index.html";
+var INDEX = "index-styled.html";
 var express = require('express')
   , http = require('http');
 
