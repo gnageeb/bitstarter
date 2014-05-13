@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
-app.set('port', (process.env.PORT || 5000))
+app.set('port', (process.env.PORT || 8080))
 
 app.get('/', function(request, response) {
 var buffer = fs.readFileSync('index.html');  
