@@ -8,7 +8,7 @@ app.get('/', function(request, response) {
   buf = fs.readFileSync('index.html');
   mystring = buf.toString();
   
-  response.send('myString');
+  response.send(myString);
 })
 
 app.listen(app.get('port'), function() {
